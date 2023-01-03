@@ -102,3 +102,15 @@ async function sendMail() {
         .catch((err) => console.log('err', err));
 
 }
+
+//Scroll Header
+function scrollPage(s) {
+    if (s == "lookbook") {
+        document.getElementById("lookbook").scrollIntoView({behavior: "smooth"});
+
+    } else if (s == "contact") {
+        document.getElementById("socials").scrollIntoView({behavior: "smooth"});
+
+    }
+
+}

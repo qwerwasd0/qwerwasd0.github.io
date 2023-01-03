@@ -7,7 +7,7 @@
 <head>
     <metacharset:"UTF-8">
         <title>Goji Longevity Lookbook</title>
-	    <link rel="icon" type="image/x-icon" href="res/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="res/favicon.ico">
 
         <script type="text/javascript" src="script.js"></script>
         <script src="https://kit.fontawesome.com/5c44b30669.js" crossorigin="anonymous"></script>
@@ -31,15 +31,18 @@
     <div class="background-header">
         <div class="navbar">
             <ul>
-                <a href="">
+                <button onclick="scrollPage('home')">
                     <li>Home</li>
-                </a>
-                <a href="">
+                </button>
+
+                <button onclick="scrollPage('lookbook')">
                     <li>Lookbook</li>
-                </a>
-                <a href="">
+                </button>
+
+                <button onclick="scrollPage('contact')">
                     <li>Contact Us</li>
-                </a>
+                </button>
+
                 <ul>
         </div>
         <img src="res/background_header.jpg">
@@ -49,7 +52,7 @@
 
     <br>
 
-    <div class="Collection">
+    <div class="Collection" id="lookbook">
         <h1 style="text-align:center; font-size: 50px;">Lookbook</h1>
 
 
@@ -60,8 +63,7 @@
 
                     <button onclick="rightArrow('light-mocha')"><i class="fa-solid fa-arrow-right fa-2x"></i></button>
                     <button onclick="leftArrow('light-mocha')"><i class="fa-solid fa-arrow-left fa-2x"></i></button>
-
-                    <p>Light Mocha</p>
+                    <p class="itemName">Light Mocha</p>
                     <p>Embordered, 80% Cotton and 20% Polyester</p>
 
                 </td>
@@ -72,14 +74,14 @@
                             class="fa-solid fa-arrow-right fa-2x"></i></button>
                     <button onclick="leftArrow('black-sweatshirt')"><i
                             class="fa-solid fa-arrow-left fa-2x"></i></button>
-
-                    <p>Black Sweatshirt</p>
+                    <p class="itemName">Black Sweatshirt</p>
                     <p>Embordered, 80% Cotton and 20% Polyester</p>
                 </td>
             </tr>
 
         </table>
     </div>
+
 
     <!-- Break: For review try to add instagram product reviews automatically, might take time -->
 
@@ -93,7 +95,7 @@
 
     <!--Break <div class="review"></div> <div class="size-chart-calculation" !-->
 
-    <div class="contact">
+    <div class="contact" id="socials">
         <h1>contact us</h1>
 
         <br>

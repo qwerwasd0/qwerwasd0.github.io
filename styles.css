@@ -95,13 +95,21 @@ h1 {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
+    margin: -15px;
+    padding: 0;
 
 }
 
 .item p {
     text-align: center;
     font-size: 16px;
+    margin: 5px;
+    padding: 0;
 
+}
+
+.itemName {
+    color: beige;
 }
 
 .item button {
@@ -116,7 +124,7 @@ h1 {
 
 .item {
     position: relative;
-    background-color: grey;
+    background-color: rgb(208, 171, 122);
     border-radius: 20px;
 }
 
