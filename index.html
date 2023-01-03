@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+<!--Break-->
+
+<head>
+    <metacharset:"UTF-8">
+        <title>Goji Longevity Lookbook</title>
+        <link rel="icon" href="res/favicon.ico" type="image/x-icon">
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://kit.fontawesome.com/5c44b30669.js" crossorigin="anonymous"></script>
+</head>
+<!--Break-->
+
+<body>
+    <div class="announcement">
+        <p>Under Construction bc the coders are shit</p>
+    </div>
+
+    <!--Break: in header, contrast the dark colors of the font-->
+
+    <div class="header">
+        <p>Goji</p>
+        <b>Longevity</b>
+    </div>
+
+    <!-- Break -->
+
+    <div class="background-header">
+        <div class="navbar">
+            <ul>
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>Lookbook</li>
+                </a>
+                <a href="">
+                    <li>Contact Us</li>
+                </a>
+                <ul>
+        </div>
+        <img src="res/background_header.jpg">
+    </div>
+
+    <!-- Break -->
+
+    <br>
+
+    <div class="Collection">
+        <h1 style="text-align:center; font-size: 50px;">Lookbook</h1>
+        <table id="list" style="margin-left:auto; margin-right:auto;">
+
+            <tr>
+                <td id="light-mocha" class="item">
+                    <img class="img" src="res/LightMochaFront.png">
+
+                    <button onclick="rightArrow('light-mocha')"><i class="fa-solid fa-arrow-right fa-2x"></i></button>
+                    <button onclick="leftArrow('light-mocha')"><i class="fa-solid fa-arrow-left fa-2x"></i></button>
+
+                    <p>Light Mocha</p>
+                    <br>
+                    <p>Embordered, 80% Cotton and 20% Polyester</p>
+
+                </td>
+                <td id="black-sweatshirt" class="item">
+                    <img class="img" src="res/BlackFront.jpg">
+
+                    <button onclick="rightArrow('black-sweatshirt')"><i
+                            class="fa-solid fa-arrow-right fa-2x"></i></button>
+                    <button onclick="leftArrow('black-sweatshirt')"><i
+                            class="fa-solid fa-arrow-left fa-2x"></i></button>
+
+                    <p>Black Sweatshirt</p>
+                    <br>
+                    <p>Embordered, 80% Cotton and 20% Polyester</p>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <!-- Break: For review try to add instagram product reviews automatically, might take time -->
+
+    <div class="socials">
+        <h1>Check Out Our Socials and Shopify </h1>
+        <a href="https://www.instagram.com/shopgoji" target="instagram.com/shopgoji"><img
+                src="res/Instagram_logo.jpg"></a>
+        <a href="https://www.tiktok.com/@shopgoji" target="tiktok.com/@shopgoji"><img src="res/tiktok_logo.jpg"></a>
+        <a href="https:/www.gojiapparel.com" target="gojiapparel.com"><img src="res/Shopify-Icon.png"></a>
+    </div>
+
+    <!--Break <div class="review"></div> <div class="size-chart-calculation" !-->
+
+    <div class="contact">
+        <h1>contact us</h1>
+
+        <br>
+        <br>
+        <form>
+            <div class="textbox">
+                <input id="inputName" type='text' placeholder="Name">
+                <input id="inputEmail" type="email" placeholder="Email">
+                <textarea id="inputComment" type="comment" style="resize:none"
+                    placeholder="Let Us Know Your Thoughts"></textarea>
+                <br>
+                <button onclick="sendMail()" type="submit">submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!--Break: in the socials add the socials for goji and add a contact us box with email, review box, and name, and make code to send staright to email-->
+</body>
+
+
+</html>
