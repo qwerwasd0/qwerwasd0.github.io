@@ -154,6 +154,8 @@ td p {
 
 .socials h1 {
     background-color: red;
+
+    
 }
 
 .socials a {
@@ -167,15 +169,14 @@ td p {
     width: 100px;
 }
 
+
 /*Break*/
 
-.contact {
-    width: 50%;
-}
-
-.contact h1 {
+.contact-box h1 {
     background-color: blue;
 }
+
+
 
 /*Break*/
 
