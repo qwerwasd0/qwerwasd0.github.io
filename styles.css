@@ -227,9 +227,14 @@ h1 {
 /*Footer*/
 
 .footer{ 
-    background-color: rgb(243, 232, 232);
+    background-color: black;
     padding:10px;
     
+}
+
+.footer p {
+    color: white;
+    font-size: 13px;
 }
 
 .footer ul li{
